@@ -76,6 +76,9 @@ body {
     font-weight: 700;
     text-decoration: none;
     color: black;
+
+}
+.text-broder{
     border-bottom: 3px solid #6c63ff;
 }
 
@@ -121,3 +124,6 @@ body {
     background-color: rgb(243, 249, 251);
 
 }
+.product-card{
+    border-bottom: 5px solid #6c63ff; 
+ }
