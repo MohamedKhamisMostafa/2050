@@ -1,38 +1,43 @@
-body{
-font-family: 'Poppins', sans-serif;
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
-.navbar{
+.navbar {
     font-weight: 900;
     background-color: #4741af;
-   
+
 }
 
-.mynavbar{
+.mynavbar {
     background-color: #4741af;
 }
 
-.nav-link , .navbar-brand{
+.navbar-brand {
+    font-size: 50px;
+}
+
+.nav-link,
+.navbar-brand {
     color: white;
 }
 
-.banner-heading{
+.banner-heading {
     font-size: 72px;
     font-weight: 800;
 }
 
-.banner{
+.banner {
     background-color: #4741af;
     color: white;
 
 }
 
-.py-10{
+.py-10 {
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
 
-.banner-btn{
+.banner-btn {
     background-color: #6c63ff;
     color: white;
     padding: 12px 58px;
@@ -41,34 +46,78 @@ font-family: 'Poppins', sans-serif;
     border-radius: 30px;
 }
 
-.banner-btn:hover{
+.banner-btn:hover {
     background-color: white;
-    color: #6c63ff;    
+    color: #6c63ff;
 }
-.banner-text{
+
+.banner-text {
     font-size: 24px;
 }
 
-.text-subtitle{
-    color: #6c63ff;    
+.text-subtitle {
+    color: #6c63ff;
     font-weight: 700;
     font-size: 24px;
 
 }
 
-.text-title{
+.text-title {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 48px;
 }
 
-.text-p{
+.text-p {
     font-size: 17px;
     font-weight: 400;
 }
 
-.text-link{
+.text-link {
     font-weight: 700;
     text-decoration: none;
     color: black;
-    border-bottom: 3px solid #6c63ff ;
+    border-bottom: 3px solid #6c63ff;
+}
+
+.about-img {
+    margin-left: -311px;
+}
+
+.service-img-background {
+    background-color: #f3f9fb;
+    border-radius: 50%;
+
+}
+
+.service-img-background img {
+    margin-top: -114px;
+    margin-left: 48px;
+}
+
+.serivce-icon {
+    background-color: #6c63ff;
+    color: white;
+    padding: 13px;
+    border-radius: 50%;
+    width: 53px;
+    display: block;
+    height: 53px;
+    text-align: center;
+}
+
+.service-title {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.serivce-icon {
+    transition: all 0.7s ease;
+}
+
+.service-card:hover span {
+    transform: translateX(50px);
+}
+.full-section{
+    background-color: rgb(243, 249, 251);
+
 }
